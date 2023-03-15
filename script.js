@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const task = input.value;
-
+  
   if (!task) {
     alert("Please fill out the task");
     return;

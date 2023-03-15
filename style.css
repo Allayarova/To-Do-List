@@ -15,14 +15,16 @@
 .todo {
   background-color: blue;
   width: 950px;
-  height: 530px;
+  height: auto;
   padding: 60px 0;
+  border-radius: 30px;
 }
 
 .title {
   text-align: center;
   color: white;
   font-size: 38px;
+  font-family: cursive;
 }
 
 .inpuut {
@@ -32,11 +34,11 @@
   outline: none;
   margin: 50px 20px;
   padding: 15px 10px;
+  border-radius: 30px;
 }
 
-.inpuut::placeholder{
+.inpuut::placeholder {
   font-size: 20px;
-
 }
 
 .content {
@@ -62,6 +64,7 @@
   top: 3px;
   left: -18px;
   border: none;
+  border-radius: 30px;
 }
 
 .task {
